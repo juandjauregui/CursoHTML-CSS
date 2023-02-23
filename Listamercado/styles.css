@@ -1,0 +1,19 @@
+section {
+
+    color: darkslategrey;
+    background-color: papayawhip;
+    text-align: center;
+    list-style: circle;
+   
+}
+
+.titulo {
+
+    color: darkslategray;
+    margin: auto;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
