@@ -8,18 +8,40 @@ html {
   font-size: 62.5%;
 }
 
-.cabecera {
-  width: 200px;
-  height: 250px;
-  background-color: red;
-top: 80%;
+main {
+ 
 
 }
 
-.container {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+.principal {
+  height: 500px;
+  width: 500px;
+  background-color: gray;
+  display: inline-block; /* Esto hace que todo lo que este dentro de principal quede adnetro y no se salga  */
+  margin-left: 500px;
+  margin-top: 100px;
 
-  
+
+}
+
+#cabeza {
+  font-size: 2rem;
+  background-color: hotpink;
+  display: inline-block; /* Esto hace que solo se modifque lo del texto y no toda la linea horizontal del texto en la pantalla  */
+  position: relative; /* Esto hace de mueva al rededor del .principal, entonces se meuve 32% a la izquierda y 4.1 rem abajo  */
+  left: 32%;
+  top: 4.1rem;
+  padding: 3.2rem; /* Aumenta el tamano de la caja  */
+  border-radius: 3.2rem;
+}
+
+#cuerpo {
+  font-size: 2rem;
+  background-color: khaki;
+  display: inline-block;
+  border: 0.2rem lawngreen solid;
+  padding: 6rem;
+  margin: 0rem 3rem 6rem 3rem;
+  line-height: calc(1.7rem) + 20%;
+  border-radius: 2.6rem;
 }
