@@ -1,0 +1,20 @@
+#navegador {
+
+   
+    background-color: bisque;
+    height: 100px;
+    width: 100vw;
+    position: absolute;
+ 
+}
+
+
+
+li{
+
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    right: 0%;
+    
+}
